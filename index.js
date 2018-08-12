@@ -12,7 +12,7 @@ function setCart(c) {
 function addToCart(item) {
   var price = parseInt(Math.random()*100);
   cart.push = ({item
-    })
+  })
 }
 
 function viewCart() {
