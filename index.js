@@ -10,7 +10,11 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- // write your code here
+var price = parseInt(Math.random()*100);
+cart.push = ({
+    itemName: item,
+    itemPrice: `${price}`,
+  })
 }
 
 function viewCart() {
